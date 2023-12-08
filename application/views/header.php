@@ -7,7 +7,7 @@
 <head>
 	
 	<!--<title><?php echo $title; ?></title>-->
-	<title>DYUTI-2023</title>
+	<title>DYUTI-2024</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<meta name="description">  <!--content="<?php echo $mdesc; ?>"-->
