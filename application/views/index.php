@@ -24,11 +24,11 @@
                          </center><br>
                          <!--<div style = "font-family:georgia,garamond,serif;font-size:16px;text-align:center;margin-bottom:25px;">Join Dyuti'22 Conference <a style="color: blue; background-color: transparent; text-decoration: none;" href="https://us02web.zoom.us/j/83540208846?pwd=RExSVnR0d3BYRmdNUVQrMmx6UWR5dz09#success">here.</a> </div>-->
                          
-		      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rajagirihead"> <h1><b> DYUTI 2023 </b></h1> </div>
+		      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rajagirihead"> <h1><b> DYUTI 2024 </b></h1> </div>
 		</div><br>
 		<p  style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic,text-align;justify;margin-bottom:25px;"align="justify">DYUTI 2023 is a three-day International Conference from January 11th - 13th, 2023, aimed at bringing together scholars, academicians and practitioners to deliberate on Global Perspectives and Practices based on health promotion.This Health Promotion Conference would provide a platform to discuss the current developments and models in the field of Health Promotion. Health promotion is a comprehensive process directed towards enabling people to take action and it is done by, with and for people either as individuals or as groups. The conference would explore the avenues to strengthen the skills and capabilities of individuals to take action and the capacity of groups or communities to act collectively to exert control over the determinants of health and achieve positive change.</p>
 		<p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic,text-align;justify;margin-bottom:25px;"align="justify"><b>About DYUTI </b><br>
-    <span class = "cap_size">DYUTI</span> — <span class = "cap_size">D</span>evelopmental <span class = "cap_size">Y</span>earnings for a <span class = "cap_size">U</span>nited and <span class = "cap_size">T</span>ransformed <span class = "cap_size">I</span>ndia
+    <span class = "cap_size">DYUTI</span> — <span class = "cap_size">D</span>evelopmental <span class = "cap_size">Y</span>earnings for a <span class = "cap_size">U</span>nited and <span class = "cap_size">T</span>ransformed <span class = "cap_size">I</span>ndia<br>
 Rajagiri with its vision of ‘becoming a centre of excellence in learning
 for enriching and fulfilling LIFE’ has been regularly providing an annual
 forum for deliberations on vital issues of development from a Rights
@@ -37,7 +37,10 @@ named DYUTI meaning ‘Spark of Life’. DYUTI 2024 is the 24th in its
 series.
     </p>
 
-<p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic,text-align;justify;margin-bottom:25px;" align="justify"><b>The Theme of DYUTI 2023 Conference</b><br>
+<p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic,text-align;justify;margin-bottom:25px;" align="justify">
+  <b>
+    Background
+  </b><br>
 The Sustainable Development Goals (SDGs) underscore the pivotal
 role of the social work profession in fostering collaboration with
 diverse professions and partners, thereby enriching a comprehensive,
@@ -454,9 +457,31 @@ rankings rated the Social Work Programme of Rajagiri College of Social Sciences 
 second-best in Pan India. The presence of live labs (extension departments) in the campus
 adds quality to education through experience.</p> 
 							</div>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 orgnzd_hd">
+              
+  <b>
+  25 years of Internationalisation @ Rajagiri
+  </b><br>
+</div>
+  <p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic,text-align;justify;margin-bottom:25px;" align="justify">
+    'Internationalisation' has been a catchword for Rajagiri since its inception and we have completed
+    25 years of official International collaborations. Currently, Rajagiri
+    has official agreements with 60+ International Universities across 30 countries.
+     Establishing vibrant academic tie-ups with leading universities all over the world
+      has not only helped the students to get international exposure, but also facilitated
+       in sharing of resources for faculty training, curriculum development, research, and
+        consultancy. Our students from PG and UG programmes regularly do short-term study
+         programmes in our Partner Universities with a duration ranging from 1 month to 6 months.
+          We host International students in our regular programmes as full-time students which
+           is also supported by the Study in India (SII) Programme from the Govt of India. The
+            various programmes offered by Rajagiri also have twinning, dual degree arrangements
+             with world-class International Universities across the globe. 
+  <br><br>
+</p>
 						</div> 
 					</div>
 				</section>
+ 
 				<!---->
 
 
