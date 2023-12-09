@@ -1,4 +1,16 @@
 <?php include("header.php"); ?>
+<style>
+     .custom-button {
+      width: 300px; /* Adjust the width as needed */
+      padding: 15px;
+      background-color: #dc3545; /* Red color */
+      color: #fff; /* White text color */
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+</style>
 </head>
 <body>
     <div class="container demo-2 logohd">
@@ -32,17 +44,37 @@
       <i class="fa fa-file fa-fw"></i> SUBMIT ABSTRACT</a>
       </p>-->
 
-                <p><br/>The conference invites conceptual as well as empirical papers on any of the sub-themes proposed. All papers should be of original work and not have been previously published nor have been presented or be in consideration for any journal, book, conference or workshop.
+                <p><br/>Abstracts based on original research and
+practice models are invited for the following<br><br>
+• Oral Presentation<br>
+• Poster Presentation<br>
 </p>
 <br>
-<p>Conference Brochure: <a href="<?php echo $this->config->item('base_url')."pdf/"; ?>DYUTI 2024 Brochure.pdf">Click here to View/ Download</a></p>
-
+<p><b>Conference Brochure:</b> <a href="<?php echo $this->config->item('base_url')."pdf/"; ?>DYUTI 2024 Brochure.pdf" target = "_blank">Click here to View/ Download</a></p>
 <br>
-  <h2> Sub-themes</h2>
+<h3>Publication</h3>
+  <p>Selected papers presented at the
+conference may be considered
+for publication in <b>Scopus-indexed
+journals</b> proceedings after due
+review process.</p>
+<br>
+  <h2>Guidelines for Abstract</h2>
                 <ul class="cal_ul">
-                <li class="cal_lst"><i class="fa fa-play fa-fw"></i>Investment for Health</li>
-                  <li class="cal_lst"><i class="fa fa-play fa-fw"></i>Social Responsibility for Health</li>
-                      <li class="cal_lst"><i class="fa fa-play fa-fw"></i>Health Promotion Strategies</li>
+                <li class="cal_lst"><i class="fa fa-circle fa-fw"></i>
+                    The abstract should be within 300 words
+                    of text including the title and keywords (MSWord Doc.)</li>
+                  <li class="cal_lst"><i class="fa fa-circle fa-fw"></i>
+                  The text should be arranged according tothe following headlines: Objectives,
+                   Design, Model, Result and conclusion.</li>
+                      <li class="cal_lst"><i class="fa fa-circle fa-fw"></i>
+                      The abstract’s title page should include the paper’s title, Author’s
+                       name, designation, institution affiliation, mailing address,
+                      contact number and email id.</li>
+                      <li class="cal_lst"><i class="fa fa-circle fa-fw"></i>
+                      It is essential that you specify the Theme and Subtheme to which your abstract
+                      pertains when submitting it.
+                      </li>
                     <!--      <li class="cal_lst"><i class="fa fa-play fa-fw"></i>Intersectional Inequalities in Indian Education: Challenges and Lessons</li>-->
                     <!--<li class="cal_lst"><i class="fa fa-play fa-fw"></i> Social Work in Equitable and Inclusive Education: Setting the Tone for Professional Practice </li>-->
                     <!--<li class="cal_lst"><i class="fa fa-play fa-fw"></i>Organisational Responses in Equitable Access to Education: Case Studies from the Social Development Sector</li>-->
@@ -56,12 +88,15 @@
               <h3 class="sub-head">Important Dates & Deadlines</h3>
               <table class="table table-bordered">
                 <tbody>
-                  <tr><td class="td1cls">Abstract submission last date</td><td>10 November 2022</td></tr>
+                  <tr><td class="td1cls">Last Date of Abstract Submission</td><td>
+                  15th December 2023</td></tr>
                   <!--<tr><td>Acceptance of Abstract</td><td>10th  December 2019</td></tr>-->
-                  <tr><td>Final paper submission</td><td>01 December 2022</td></tr>
+                  <tr><td>Last Date of Full Paper Submission</td><td>
+                  20th December 2023</td></tr>
                    
                 </tbody>
               </table>
+              
 
 
  <!--             <h3 class="sub-head">Registration Fees</h3>-->
@@ -77,33 +112,25 @@
  <!--               </tbody>-->
  <!--             </table>-->
 
-<!--               <h3 class="sub-head">Mode of Payment</h3>-->
-<!--                <ul style="padding-left:15px;">-->
-<!--                <li>At Par Cheque/Bank Demand Draft /E – transfer transferred to the colleges account.</li>-->
-<!--<li>The reference number of bank transfer/Demand Draft/E – transfer /At Par Cheque is to be quoted in the Registration form.</li>-->
-<!--<li>The forms without reference numbers of transfer /DD will not be considered.</li>-->
-<!--</ul>-->
+              <h3 class="sub-head">Mode of Payment</h3>
 
-<!--<table class="table table-bordered">-->
+
+<table class="table table-bordered">
               
-<!--                <tbody>-->
-<!--                  <tr><td class="td1cls">Account Name:  </td><td style="font-weight:bold;">Rajagiri College of Social Sciences, Kalamassery</td></tr>-->
-<!--                  <tr><td class="td1cls">Account No:</td><td style="font-weight:bold;">0224053000005056</td></tr>-->
-<!--                  <tr><td class="td1cls">Bank:</td><td style="font-weight:bold;">South Indian Bank</td>-->
-<!--                  <tr><td class="td1cls">IFSC Code:</td><td style="font-weight:bold;">SIBL0000224</td>-->
+               <tbody>
+                 <tr><td class="td1cls">Account Name:  </td><td style="font-weight:bold;">Rajagiri College of Social Sciences, Kalamassery</td></tr>
+                 <tr><td class="td1cls">Account No:</td><td style="font-weight:bold;">0224053000005056</td></tr>
+                 <tr><td class="td1cls">Bank:</td><td style="font-weight:bold;">South Indian Bank</td>
+                 <tr><td class="td1cls">IFSC/NEFT Code:</td><td style="font-weight:bold;">SIBL0000224</td>
                   
-                  
-<!--                  </tr>-->
-                  
-<!--                   <tr><td class="td1cls">SWIFT CODE:</td><td style="font-weight:bold;">SOININ55</td>-->
-                  
-                  
-<!--                  </tr>-->
+                 </tr>
                      
                         
-<!--                </tbody>-->
-<!--              </table>-->
-
+               </tbody>
+</table>
+<div style = "text-align : center;margin: 50px 0;">
+<a href="https://cmt3.research.microsoft.com/RajagiriSDG2024" class="custom-button">CLICK HERE TO SUBMIT</a>
+</div>
 
 
           <!--    <h3 class="sub-head">Major Sub themes of the Conference</h3>
