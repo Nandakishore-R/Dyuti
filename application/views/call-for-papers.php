@@ -35,7 +35,7 @@
                 <p><br/>The conference invites conceptual as well as empirical papers on any of the sub-themes proposed. All papers should be of original work and not have been previously published nor have been presented or be in consideration for any journal, book, conference or workshop.
 </p>
 <br>
-<p>Conference Brochure: <a href="<?php echo $this->config->item('base_url')."pdf/"; ?>DYUTI 23 Flyer.pdf">Click here to View/ Download</a></p>
+<p>Conference Brochure: <a href="<?php echo $this->config->item('base_url')."pdf/"; ?>DYUTI 2024 Brochure.pdf">Click here to View/ Download</a></p>
 
 <br>
   <h2> Sub-themes</h2>

@@ -14,7 +14,7 @@
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<ul>
 					<li><a href="#">SPEAKERS</a></li>
-					<li><a href="https://forms.gle/ejnNsxvYraTp3w1X8" target="_blank">REGISTRATION</a></li>
+					<li><a href="https://www.conference.rajagiri.edu/icmas/registration-open" target="_blank">REGISTRATION</a></li>
 				<!--	<li><a href="<?php //echo $this->config->item("base_url"); ?>venue.html">VENUE</a></li>-->
 					<li><a href="<?php echo $this->config->item("base_url"); ?>venue">VENUE</a></li>
 						<!--<li><a href="<?php //echo $this->config->item("base_url"); ?>attractions">ATTRACTIONS</a></li>-->

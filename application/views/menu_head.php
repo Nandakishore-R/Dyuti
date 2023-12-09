@@ -34,7 +34,7 @@
 						<li <?php if($this->uri->segment(1)=="gallery") {?> class="active" <?php } ?>><a href="<?php echo $this->config->item("base_url"); ?>gallery"> GALLERY</a></li>
 						<li <?php if($this->uri->segment(1)=="contactus") {?> class="active" <?php } ?> ><a href="<?php echo $this->config->item("base_url"); ?>contactus"> CONTACT</a></li>
 					
-	<li  ><a href="https://forms.gle/ejnNsxvYraTp3w1X8" target="_blank">REGISTRATION</a></li>
+	<li  ><a href="https://www.conference.rajagiri.edu/icmas/registration-open" target="_blank">REGISTRATION</a></li>
 						<?php if(!$this->session->userdata('wlogged_in')) { ?>
 
 					
