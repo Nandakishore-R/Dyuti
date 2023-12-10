@@ -1,52 +1,38 @@
 <!-- Footer -->
-<section class="footer" style="margin-top: 0px !important">
-	<div class="content-wrapper">
+<section class="footer" >
+
+<div>
+	<span class="whitetextfooter">PAGES</span>
+</div>
+	<div class="content-wrapper" style="display:flex;">
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
 				<ul>
 					<li><a href="<?php echo $this->config->item("base_url"); ?>">HOME</a></li>
 					<li><a href="<?php echo $this->config->item("base_url"); ?>rajagiri">RAJAGIRI</a></li>
-				
-					<li><a href="<?php echo $this->config->item("base_url"); ?>call_for_papers">CALL FOR PAPERS</a></li>
-				<!--	<li><a href="<?php echo $this->config->item("base_url"); ?>programs">PROGRAMMES</a></li>-->
-				</ul>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<ul>
+									<li><a href="<?php echo $this->config->item("base_url"); ?>call_for_papers">CALL FOR PAPERS</a></li>
+				<li><a href="#">PROGRAM SCHEDULE</a></li>
 					<li><a href="#">SPEAKERS</a></li>
+									
+				</ul>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+				<ul>
+
 					<li><a href="https://www.conference.rajagiri.edu/icmas/registration-open" target="_blank">REGISTRATION</a></li>
-				<!--	<li><a href="<?php //echo $this->config->item("base_url"); ?>venue.html">VENUE</a></li>-->
-					<li><a href="<?php echo $this->config->item("base_url"); ?>venue">VENUE</a></li>
-						<!--<li><a href="<?php //echo $this->config->item("base_url"); ?>attractions">ATTRACTIONS</a></li>-->
-				<!--	<li><a href="<?php //echo $this->config->item("base_url"); ?>hospitality.html">HOSPITALITY</a></li>-->
+					<li><a href="<?php echo $this->config->item("base_url"); ?>contactus">CONTACT</a></li>
+					<li><a href="<?php echo $this->config->item("base_url"); ?>gallery">GALLERY</a></li>
+		<!-- <li><a href="<?php echo $this->config->item("base_url"); ?>competition">COMPETITION</a></li> -->
+				<li><a href="<?php echo $this->config->item("base_url"); ?>attractions">ATTRACTIONS</a></li>
+					
 				
 				</ul>
 
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<ul>
-					<li><a href="<?php echo $this->config->item("base_url"); ?>gallery">GALLERY</a></li>
-		<!--<li><a href="<?php // echo $this->config->item("base_url"); ?>organizers">ORGANIZERS</a></li>-->
-		<li><a href="<?php echo $this->config->item("base_url"); ?>conference">CONFERENCE HISTORY</a></li>
-				<li><a href="<?php echo $this->config->item("base_url"); ?>attractions">ATTRACTIONS</a></li>
-					<!--<li><a href="<?php echo $this->config->item("base_url"); ?>news">NEWS & EVENTS</a></li>-->
-				<!--	<li><a href="<?php echo $this->config->item("base_url"); ?>dyuti.html">ABOUT DYUTI</a></li>-->
-				<!--	<li><a href="<?php echo $this->config->item("base_url"); ?>opening.html">OPENING CEREMONY</a></li>-->
-					<!--<li><a href="<?php echo $this->config->item("base_url"); ?>preconference.html">PRE-CONFERENCE</a></li>-->
-				</ul>
-
+			
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<!--<ul>-->
-				<!--<li <?php// if($this->uri->segment(1)=="accomodation") {?> class="active" <?php// } ?>><a href="<?php //echo $this->config->item("base_url"); ?>accomodation"> ACCOMODATION</a></li> -->
-					<!--<li><a href="<?php echo $this->config->item("base_url"); ?>agency.html">AGENCY FIELD TRIPS</a></li>-->
-					<!--<li><a href="<?php echo $this->config->item("base_url"); ?>advisorygroup.html">INTERNATIONAL ADVISORY GROUP</a></li>-->
-			<!--		<li><a href="<?php echo $this->config->item("base_url"); ?>organising.html">ORGANISING COMMITTEE</a></li>-->
-				<!--	<li><a href="<?php echo $this->config->item("base_url"); ?>conference.html">CONFERENCE HISTORY</a></li>-->
-					<!--<li><a href="<?php echo $this->config->item("base_url"); ?>cochin.html">COCHIN</a></li>-->
-				</ul>
-
-			</div>
+<div class="footerlogo">
+		<img src="<?php echo $this->config->item('base_url')."assets/"; ?>images/25.png" width="150"   alt="Dyuti" longdesc="<?php echo $this->config->item('base_url')."assets/"; ?>images/25.png"  class="img-responsive ">
 		</div>
 	</div>
 </section>

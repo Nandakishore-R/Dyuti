@@ -1,7 +1,7 @@
 
 
 <!-- Nav -->
-<div class="container-fluid">
+<div class="container-fluid navlg"  id="navlg">
 	<div class="row white-back navbg">
 		<section class="content-wrapper">
 			<nav class="navbar navbar-default" role="navigation">
@@ -30,7 +30,7 @@
          <li <?php if($this->uri->segment(1)=="speakers") {?> class="active" <?php } ?>><a href="<?php echo $this->config->item("base_url"); ?>speakers"> SPEAKERS</a></li>
          <!--<li ><a href="#">SPEAKERS</a></li>-->
 						<li <?php if($this->uri->segment(1)=="attractions") {?> class="active" <?php } ?>><a href="<?php echo $this->config->item("base_url"); ?>attractions"> ATTRACTIONS</a></li>
-						<li><a href="<?php echo base_url();?>competition/index">COMPETITION</a></li>
+						<!-- <li <?php if($this->uri->segment(1)=="competition") {?> class="active" <?php } ?>><a href="<?php echo $this->config->item("base_url"); ?>competition"> COMPETITION</a></li> -->
 						<li <?php if($this->uri->segment(1)=="gallery") {?> class="active" <?php } ?>><a href="<?php echo $this->config->item("base_url"); ?>gallery"> GALLERY</a></li>
 						<li <?php if($this->uri->segment(1)=="contactus") {?> class="active" <?php } ?> ><a href="<?php echo $this->config->item("base_url"); ?>contactus"> CONTACT</a></li>
 					
@@ -53,3 +53,38 @@
 				</div>
 			</div>
 		<!---->
+		<script>
+			window.addEventListener('DOMContentLoaded', (event) => {
+    // Initial check for scroll position on page load
+    handleScroll();
+
+    window.addEventListener('scroll', function() {
+        handleScroll();
+    });
+
+    window.addEventListener('resize', function() {
+        handleScroll();
+    });
+
+    function handleScroll() {
+        var navbar = document.getElementById("navlg");
+        var slidingHeader = document.getElementById("sliding-header");
+        var navbarHeight = navbar.offsetHeight; // Height of the navbar
+        var header = document.getElementById("sliding-header");
+
+        // Get the height of the header
+        var headerHeight = header.offsetHeight;
+
+        var initialPosition = headerHeight + 50;
+
+        if (window.scrollY > initialPosition - 120) {
+            navbar.style.top = "0";
+            slidingHeader.style.transform = "translateY(-100%)";
+        } else {
+            navbar.style.top = initialPosition - navbarHeight + "px";
+            slidingHeader.style.transform = "translateY(0)";
+        }
+    }
+});
+
+		</script>

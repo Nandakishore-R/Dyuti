@@ -5,11 +5,11 @@
 /* 0046AD    0069A8  */
 
 *{  border: 0;  margin: 0;  padding: 0;  outline: 0;}
-body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
-.logohd{background-color:#FFF !important;}
-.lgo{ padding:5px 0px 0px 0px !important; background-color:#fff !important;}
-.navbg{ background-color:#313c53 !important; }
-.nav{  background-color:#313c53 !important; text-align:center !important;}
+body{  font-family: 'Times New Roman', Times, serif; font-size: 16px;}
+.logohd{background-color:#E8F1F2 !important;}
+.lgo{ padding:5px 0px 0px 0px !important; background-color:#E8F1F2 !important;}
+.navbg{ background-color:#13293D !important; }
+.nav{  background-color:#13293D !important; text-align:center !important;}
 .nav ul{  list-style: none; text-align:center !important; margin-top:10px !important; }
 .nav ul li{  font-size: 12px !important; text-align:center;  color:#000 !important; display: inline-block !important;}
 .nav ul li a{  color:#000 !important;   padding: 0px 15px;   line-height: 50px; text-decoration:none !important;}
@@ -18,13 +18,14 @@ body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
 .toggle-nav{   display: none;}
 .nav-mobile style{   display: block;}
 @media only screen and (max-width: 640px){
-    .nav{  background-color:#247AC9 !important;}  
+    .nav{  background-color:#13293D !important;}  
     .toggle-nav{ display: block;  padding: 10px;  position: absolute; right: 10px; line-height: 30px;   text-decoration:none !important;  }
     .toggle-nav:after{   content: ' Menu';}
     .toggle-nav:hover{ text-decoration:none !important; color:#247AC9 !important;}
     .nav-mobile{   display: none; }
     .style-mobile{    background-color:#247AC9 !important; margin-top:80px !important; top : 51px;  position : absolute;   width : 100%; z-index:3000;}
     .style-mobile li{  display: block;  width: 100%;  }
+.mincont{display: none;}
     
 }
 .navbar-default .navbar-nav>li>a {
@@ -39,18 +40,39 @@ body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
-@media only screen and (min-width: 250px) and (max-width: 1280px)
+@media only screen and (min-width: 1360px) and (max-width: 1600px)
+{
+   .navbar-default .navbar-nav > li > a { font-size: 12px !important; padding: 15px 13px!important;  }
+}
+@media only screen and (min-width: 117px) and (max-width: 1400px)
 {
    .navbar-default .navbar-nav > li > a { font-size: 10px !important; padding: 14px 12px!important;  }
 }
-@media only screen and (min-width: 641px){
+@media only screen and (min-width: 930px) and (max-width: 1200px)
+{
+   .navbar-default .navbar-nav > li > a { font-size: 8px !important; padding: 14px 9px!important;  }
+}
+@media only screen and (min-width: 250px) and (max-width: 950px)
+{
+   .navbar-default .navbar-nav > li > a { font-size: 7px !important; padding: 14px 6px!important;  }
+}
+
+@media (min-width: 950px){
+    .navbar-toggle{
+        border-collapse: separate;
+    }
+}
+
+@media only screen and (min-width: 950px){
     .nav-mobile { display:block !important; background-color:#fff !important; }
 }
 /**************/
 /****************************************/
 
 /**************** Dyutii ****************/
-.dyuti{ padding:50px 0px 30px 0px;}
+.headdata{ padding:1%;
+text-align: left;
+}
 .dyutiabt{text-align:center; padding:0px 0px 50px 0px !important;}
 /****************************************/
 
@@ -59,7 +81,7 @@ body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
 .objct {
     padding:30px 0px 0px 0px;
    /* background: no-repeat fixed url(../images/2016_test.png);*/
-    background-color:#FFF
+    background-color:#FFF;
     width: auto;
     height: auto;
     min-height:400px !important;
@@ -125,10 +147,59 @@ body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
     .social ul li {display: inline-block !important; }
 }
 
-@media only screen and (min-width: 641px){
+/*************************this is for timer*********************/
+
+@media only screen and (min-width: 931px) and (max-width: 1100px){
+    .mincont{padding-top: 3%;}
+    .footerlogo{display: none;}
+    .timer::after{
+        max-width:max-content;
+        background-color:#13293D ;
+        display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+        margin-bottom: 2%;
+        padding-left: 0%;
+        padding-right:10% ;
+        margin-right: 0%;
+      }
+    .timerinside::after{text-align: center; padding: 0%; width: 80%; }
+
     
 
 }
+
+@media only screen and (min-width: 613px) and (max-width: 931px){
+    .mincont{display: none;}
+    .footerlogo{display: none;}
+    .timer{
+        min-width:100%;
+        background-color:#13293D ;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+        margin-bottom: 2%;
+        padding-left: 0%;
+        padding-right:10% ;
+        margin-right: 0%;
+      }
+    .timerinside::after{text-align: center; padding: 0%; width: 100%; }
+
+}
+@media only screen and (max-width: 613px){
+    .mincont{display: none;}
+    .footerlogo{display: none;}
+    .timer{
+        background-color:#13293D ;
+        display: flex;
+    justify-content: center;
+      }
+    .timerinside::after{text-align: center; padding: 0%; width: 80%; }
+
+}
+
+
+
 /****************************************/
 .navbar{
  
@@ -199,6 +270,20 @@ body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
         border-top:0 none;
     }
 }
+@media(max-width:420px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+    .headingtxt{
+    font-size: x-large;
+    }
+}
+
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #000 !important;
@@ -225,7 +310,7 @@ body{  font-family: 'Open Sans', sans-serif;   font-size: 16px;}
 .ntfctn_hd{ background-color:#ef3f4a !important; text-align:center !important; color:#FFF;}
 .notification{ padding:20px 10px 20px 5px ;}
 .notification_bg{ border-bottom:1px solid #999 !important;}
-.notification_bg:hover{ background-color:#53b7e8;!important}
+.notification_bg:hover{ background-color:#53b7e8;}
 .abstract{ background-color:#ef3f4a;padding-bottom: 15px; cursor:pointer; color: #FFF;}
 .abstract a h3{font-size: 15px; text-transform: uppercase; font-weight: bolder; color: #FFF;}
 .abstract p{font-size: 12px; line-height: 12px; color: #F0ECE9;}
@@ -758,6 +843,8 @@ ul.filter > li span {
 .nav-payment{border-bottom: 1px solid #247AC9;}
 .nav-payment > li.active > a {color: #23528A;}
 .nav-payment > li > a {color: #FFF;}
+
+
 
     /* Call for paper end */
 /******Jilu PS*****/

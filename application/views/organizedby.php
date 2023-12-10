@@ -41,11 +41,11 @@
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 orgnzd_hd">
 								<h1> OUR INTERNATIONAL PARTNERS</h1>
 							</div>
-							<p style = "font-family:georgia,garamond,serif;font-size:16px;text-align:center;margin-bottom:55px;">Dyuti'23 and Rajagiri College of Social Sciences (Autonomous) are honoured to have these organisations on board as our international partners. </p>
+							<p>Dyuti'24 and Rajagiri College of Social Sciences (Autonomous) are honoured to have these organisations on board as our international partners. </p>
 							</div>
 							
 							<div class="row">
-							  <center>
+							  
 							      
 							          
 								<div class>
@@ -63,8 +63,7 @@
 									-->
 									<br><br>
 									
-							 </center>
-							</div> 
+							 							</div> 
 									
 									</div>
 							
