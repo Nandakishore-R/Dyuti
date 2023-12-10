@@ -76,7 +76,7 @@
 since 2009, director of the successful and internationally
 regarded Master of Social Work programme in recent
 years and is a Senior Fellow of the Higher Education
-Academy.
+Academy.<br>&nbsp
 With teaching and research experience spanning
 across India and Scotland, he is passionate about
 internationalising the curricula and enabling students to have cross-cultural
@@ -89,6 +89,44 @@ children and families while also providing mentoring support to BAME social
 work students. For his contribution to student support, he was awarded
 the Best Personal Tutor Award (2019) by the Edinburgh University Students
 Association.</p>
+</div>
+
+<div class="speaker-card">
+      <div class="details-container">
+      <img src="<?php echo $this->config->item('base_url'); ?>assets/images/speakers/img2.jpg" alt="Speaker 1" class="speaker-image">
+      
+      <div class="speaker-details">
+        
+        <h3>Dr George Palattiyil, PhD, SFHEA</h3>
+        <h4>Director General</h4>
+        <h5>Kerala Institute of Local Administration (KILA)</h5>
+      </div>
+</div>
+      <p class="description">
+      He is a medical doctor with Masters in Public
+Health (MPH) and MBBS. His areas of interest
+and expertise include Decentralisation and
+local governance, participatory planning,
+monitoring and evaluation, climate change
+and development, capacity development
+and institution development and knowledge
+management for development.<br>&nbsp
+Dr. Elamon had successfully completed a Climate Change and Health
+course at the Institute of Public Health, University of Heidelberg,
+Germany. He was a National Resource Person of the Ministry of
+Panchayati Raj, India for decentralised participatory planning.
+He has also served in many committees set up by the Ministry of
+Panchayati Raj, India and the Government of Kerala. He was earlier
+included in the UNDP Democratic Governance Roster of Experts in
+Local Governance and Local Development. Dr Elamon was awarded
+the Outstanding Community Builder award by UNDP India (Solution
+Exchange) in 2007. Dr. Elamon is a former Vice President of Kerala
+Sasthra Sahithya Parishad (People’s Science Movement), State
+Convener of Jan Swaasthya Abhiyaan Kerala (People’s Health
+Movement) and President of Kerala Sasthra Parishad (KSSP) Delhi
+Forum. He had also served as a member of the Syndicate, Senate
+and Academic Council of the University of Kerala.
+</p>
 </div>
 
 <div class="speaker-card">
@@ -123,7 +161,7 @@ Western Sydney University, Australia
       </div>
 </div>
       <p class="description">
-      Dr. Rimple Mehta is Associate Dean of international (South Asia and South East Asia), and Lecturer of social Work and Community Welfare, at the School of Social Sciences, Western Sydney University. Her research and field engagements broadly focus on women prisoners, refugee women, and trafficking. She also engages with questions of borders, citizenship and the criminology of mobility. She adopts an intersectional feminist perspective with a strong emphasis on questions of epistemology, therefore viewing ‘reality’ from intersecting positions of marginality.  
+      Dr. Rimple Mehta is Associate Dean of international (South Asia and South East Asia), and Lecturer of social Work and Community Welfare, at the School of Social Sciences, Western Sydney University. Her research and field engagements broadly focus on women prisoners, refugee women, and trafficking. She also engages with questions of borders, citizenship and the criminology of mobility. She adopts an intersectional feminist perspective with a strong emphasis on questions of epistemology, therefore viewing ‘reality’ from intersecting positions of marginality. <br>&nbsp
 Previously she was an Assistant Professor at the Tata Institute for Social Sciences, Mumbai and an Assistant Professor at the School of Women’s Studies, Jadavpur University. She studied Sociology, Social Work and Women’s Studies and has written on gender, borders, sexuality and prisons, especially the criminalization of mobility and Bangladeshi women in Indian prisons. Her paper titled "So Many Ways to Love You/Self: Negotiating Love in a Prison'' won the 2013 Enloe Award. She has worked with organisations such as Swayam and networks such as Maitree against violence on women in West Bengal, as well as with women prisoners in Mumbai, Kolkata and the Netherlands.
 
 </p>
