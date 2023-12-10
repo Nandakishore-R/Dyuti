@@ -11,8 +11,8 @@
 					<li><a href="<?php echo $this->config->item("base_url"); ?>">HOME</a></li>
 					<li><a href="<?php echo $this->config->item("base_url"); ?>rajagiri">RAJAGIRI</a></li>
 									<li><a href="<?php echo $this->config->item("base_url"); ?>call_for_papers">CALL FOR PAPERS</a></li>
-				<li><a href="#">PROGRAM SCHEDULE</a></li>
-					<li><a href="#">SPEAKERS</a></li>
+				<li><a href="<?php echo $this->config->item("base_url")."assets/" ?>images/banner1/ProgrammeSchedule.pdf">PROGRAM SCHEDULE</a></li>
+					<li><a href="<?php echo $this->config->item("base_url"); ?>speakers">SPEAKERS</a></li>
 									
 				</ul>
 			</div>
